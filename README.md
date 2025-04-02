@@ -33,7 +33,7 @@ This tool is used to simulate and analyze stock trades using the FIFO method to 
     from collections import defaultdict
 
     def action_append(ticker, action, price, volume, df, info_dict):
-        # ... (โค้ดของคุณ) ...
+        # ... (โค้ด) ...
 
     ticker_df = pd.DataFrame(columns=['ticker', 'action', 'price', 'volume'])
     ticker_dict = defaultdict(list)
